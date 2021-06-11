@@ -2,7 +2,7 @@
 // @name         QuizletSploit
 // @namespace    RunnerKid
 // @version      1.3
-// @description  Hack Quizlet and get out of work! Yo are invincible! 
+// @description  Hack Quizlet and get out of work! You are invincible! 
 // @author       RunnerKid
 // @match        https://quizlet.com/*/*
 // @grant        none
