@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         The Original Quizlet Breaker
+// @name         QuizletSploit
 // @namespace    RunnerKid
 // @version      1.3
 // @description  Hack Quizlet and get out of work! Yo are invincible! 
