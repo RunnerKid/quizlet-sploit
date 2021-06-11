@@ -1,9 +1,9 @@
 // ==UserScript==
 // @name         The Original Quizlet Breaker
-// @namespace    TheMostOGName
+// @namespace    RunnerKid
 // @version      1.3
-// @description  Hack Quizlet and get out of work! Quizlet stands no chance against you. 
-// @author       TheMostOGName
+// @description  Hack Quizlet and get out of work! Yo are invincible! 
+// @author       RunnerKid
 // @match        https://quizlet.com/*/*
 // @grant        none
 // @license      All Rights Reserved
@@ -18,19 +18,19 @@ var gravityScore,
 	function initLoad() {
 		if (href.includes("quizlet.com")) {
 			if (href.includes("/learn")) {
-				cAlert('<h2>Game Mode: Learn</h2>Thank you for using TheMostOGName Quizlet Exploit<br>Without you, this exploit wouldnt be possible. Please note that this does not work anymore.<br><h4>Instructions:</h4>Just wait for this script to finish!<br><br><button class="UIButton" id="learnButton" type="button"><span class="UIButton-wrapper"><span>Inject</span></span></button>');
+				cAlert('<h2>Game Mode: Learn</h2>Thank you for using RunnerKid Quizlet Exploit<br>Without you, this exploit wouldnt be possible. Please note that this does not work anymore.<br><h4>Instructions:</h4>Just wait for this script to finish!<br><br><button class="UIButton" id="learnButton" type="button"><span class="UIButton-wrapper"><span>Inject</span></span></button>');
 				getId("learnButton").addEventListener("click", function() {
 					document.getElementById("customMessageContainer").remove();
 					learn();
 				});
 
 			} else if (href.includes("/flashcards")) {
-				cAlert('<h2>Game Mode: Flashcards</h2>Thank you for using TheMostOGName Quizlet Exploit<br>Without you, this exploit wouldnt be possible.<br><h4>Changelog:</h4>+ Added Match time freeze for regular match and diagrams<br>+ Added Gravity score exploit to get ANY score you want!<br>+ Added custom alert box<br>+ Fixed graphics<br>- Removed useless alert boxes.<h4>Instructions:</h4>Umm why are you here? Go cheat somewhere else...<br><br><button class="UIButton" id="flashcardsButton" type="button"><span class="UIButton-wrapper"><span>Inject</span></span></button>');
+				cAlert('<h2>Game Mode: Flashcards</h2>Thank you for using RunnerKid Quizlet Exploit<br>Without you, this exploit wouldnt be possible.<br><h4>Changelog:</h4>+ Added Match time freeze for regular match and diagrams<br>+ Added Gravity score exploit to get ANY score you want!<br>+ Added custom alert box<br>+ Fixed graphics<br>- Removed useless alert boxes.<h4>Instructions:</h4>Umm why are you here? Go cheat somewhere else...<br><br><button class="UIButton" id="flashcardsButton" type="button"><span class="UIButton-wrapper"><span>Inject</span></span></button>');
 				getId("flashcardsButton").addEventListener("click", function() {
 					document.getElementById("customMessageContainer").remove();
 				});
 			} else if (href.includes("/write")) {
-				cAlert('<h2>Game Mode: Write</h2>Thank you for using TheMostOGName Exploit<br>Without you, this exploit wouldnt be possible.<br><h4>Instructions:</h4>You dont even have to wait,<br> this is my favorite one to watch!<br><br><button class="UIButton" id="writeButton" type="button"><span class="UIButton-wrapper"><span>Inject</span></span></button>');
+				cAlert('<h2>Game Mode: Write</h2>Thank you for using RunnerKid Exploit<br>Without you, this exploit wouldnt be possible.<br><h4>Instructions:</h4>You dont even have to wait,<br> this is my favorite one to watch!<br><br><button class="UIButton" id="writeButton" type="button"><span class="UIButton-wrapper"><span>Inject</span></span></button>');
 				getId("writeButton").addEventListener("click", function() {
 					document.getElementById("customMessageContainer").remove();
 					write();
@@ -42,19 +42,19 @@ var gravityScore,
 					spell();
 				});
 			} else if (href.includes("/test")) {
-				cAlert('<h2>Game Mode: Test</h2>Thank you for using TheMostOGName Quizlet Exploit<br>Without you, this exploit wouldnt be possible.<br><br><h4>Instructions:</h4>Right click to toggle answers.<br>(Be subtle when using)<br><br><button class="UIButton" id="testButton" type="button"><span class="UIButton-wrapper"><span>Inject</span></span></button>');
+				cAlert('<h2>Game Mode: Test</h2>Thank you for using RunnerKid Quizlet Exploit<br>Without you, this exploit wouldnt be possible.<br><br><h4>Instructions:</h4>Right click to toggle answers.<br>(Be subtle when using)<br><br><button class="UIButton" id="testButton" type="button"><span class="UIButton-wrapper"><span>Inject</span></span></button>');
 				getId("testButton").addEventListener("click", function() {
 					document.getElementById("customMessageContainer").remove();
 					testMode();
 				});
 			} else if (href.includes("/micromatch")) {
-				cAlert('<h2>Game Mode: Micromatch</h2>Thank you for using TheMostOGName Quizlet Exploit<br>Without you, this exploit wouldnt be possible.<br><h4>Instructions:</h4>The timer will be paused when at choosen time.<br>The answers will also be highlighted for you.<br>At your leisure, solve the questions.<br><h4>Match Time: </h4><input type="text" id="matchTimeInput" value="0"></input><br><br><button class="UIButton" id="micromatchButton" type="button"><span class="UIButton-wrapper"><span>Inject</span></span></button>');
+				cAlert('<h2>Game Mode: Micromatch</h2>Thank you for using RunnerKid Quizlet Exploit<br>Without you, this exploit wouldnt be possible.<br><h4>Instructions:</h4>The timer will be paused when at choosen time.<br>The answers will also be highlighted for you.<br>At your leisure, solve the questions.<br><h4>Match Time: </h4><input type="text" id="matchTimeInput" value="0"></input><br><br><button class="UIButton" id="micromatchButton" type="button"><span class="UIButton-wrapper"><span>Inject</span></span></button>');
 				getId("micromatchButton").addEventListener("click", function() {
 					document.getElementById("customMessageContainer").remove();
 					micromatch();
 				});
 			} else if (href.includes("/match")) {
-				cAlert('<h2>Game Mode: Match</h2>Thank you for using TheMostOGName Quizlet Exploit<br>Without you, this exploit wouldnt be possible.<br><h4>Instructions:</h4>The timer will be paused when at choosen time.<br>The answers will also be highlighted for you.<br>At your leisure, solve the questions.<br><h4>Match Time: </h4><input type="text" id="matchTimeInput" value="0"></input><br><br><button class="UIButton" id="matchButton" type="button"><span class="UIButton-wrapper"><span>Inject</span></span></button>');
+				cAlert('<h2>Game Mode: Match</h2>Thank you for using RunnerKid Quizlet Exploit<br>Without you, this exploit wouldnt be possible.<br><h4>Instructions:</h4>The timer will be paused when at choosen time.<br>The answers will also be highlighted for you.<br>At your leisure, solve the questions.<br><h4>Match Time: </h4><input type="text" id="matchTimeInput" value="0"></input><br><br><button class="UIButton" id="matchButton" type="button"><span class="UIButton-wrapper"><span>Inject</span></span></button>');
 				getId("matchButton").addEventListener("click", function() {
 					document.getElementById("customMessageContainer").remove();
 					match();
@@ -63,7 +63,7 @@ var gravityScore,
 				try {
 					document.getElementsByClassName("UIModal is-white is-open")[0].style.display = "none"
 				} catch (e) {}
-				cAlert('<h2>Game Mode: Gravity</h2>Thank you for using TheMostOGName Quizlet Exploit<br>Without you, this exploit wouldnt be possible. Please note that this script does not work anymore. <br> <h4>What score would you like?: <input type="number" id="gravityScoreInput" value="4294967295" onchange="gravityScore = parseInt(this.value);"></input></h4><br><br><button class="UIButton" id="gravityButton" type="button"><span class="UIButton-wrapper"><span>Inject</span></span></button>');
+				cAlert('<h2>Game Mode: Gravity</h2>Thank you for using RunnerKid Quizlet Exploit<br>Without you, this exploit wouldnt be possible. Please note that this script does not work anymore. <br> <h4>What score would you like?: <input type="number" id="gravityScoreInput" value="4294967295" onchange="gravityScore = parseInt(this.value);"></input></h4><br><br><button class="UIButton" id="gravityButton" type="button"><span class="UIButton-wrapper"><span>Inject</span></span></button>');
 				getId("gravityButton").addEventListener("click", function() {
 					document.getElementById("customMessageContainer").remove();
 					gravity();
